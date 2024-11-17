@@ -1,0 +1,174 @@
+.titles {
+    font-family: sans-serif;
+    color: lightgrey;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+body {
+    background: linear-gradient(to right, darkslategray, #1a1818);
+    height: 96vh;
+    margin: 0;
+}
+
+.button-container {
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.button-container button {
+    margin: 0 10px;
+}
+
+.href-button {
+    border-color: white;
+    border-radius: 50px;
+    width:200px;
+    height: 50px;
+    color: black;
+    background: gray;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.schedule {
+    background: linear-gradient(to bottom right, black, darkslategray);
+    height: 450px;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-color: black transparent;
+    margin-top: 100px;
+    margin: 0 200px;
+    border-radius: 15px;
+}
+
+.schedule .day-of-week {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: transparent;
+    color: gray;
+    width: fit-content;
+    margin-top: 13px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.schedule .week-seperator {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.schedule .event-div {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: rgb(248, 232, 58);
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.input-label {
+    color:gray;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.api-input {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 2%;
+    text-align: center;
+    left: 36%;
+    padding: 10px;
+}
+
+.input-label {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 7%;
+    text-align: center;
+    left: 41%;
+    padding: 10px;
+}
+
+.api-text-field {
+    field-sizing: 20px;
+    margin-right: 20px;
+    background-color: darkslategray;
+    color:white;
+    width:300px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.api-submit-button {
+    color: white;
+    background-color: darkslategray;
+    padding: 3px;
+    border-radius: 5px;
+    width: 100px;
+    border-color: white;
+}
+
+.api-response {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background: linear-gradient(to bottom right, black, darkslategray);
+    height: 450px;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-color: black transparent;
+    margin-top: 100px;
+    margin: 0 200px;
+    border-radius: 10px;
+}
+
+.text {
+    text-indent: 40px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 5px;
+    color: white;
+}
+
+.input {
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 5px;
+    color: rgb(198, 196, 196);
+}
+
+.option-buttons-container {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 8%;
+    text-align: center;
+    left: 37%;
+    padding: 10px;
+    
+}
+
+.option-button {
+    margin-right: 10px;
+    color: white;
+    background-color: darkslategray;
+    padding: 3px;
+    border-radius: 5px;
+    width: 100px;
+    border-color: white;
+}
+
+.loading {
+    background-color: transparent;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}

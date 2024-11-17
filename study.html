@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Scedge</title>
+</head>
+<body>
+    <h1 class="titles">AI Study Assistant</h1>
+    <div id="loading" class="loading">ㅤ</div>
+    <p id="display" class="api-response"></p>
+    <div class="api-input">
+        <input type="text" id="question" class="api-text-field" name="question" autocomplete="off" placeholder="Enter text and submit">
+        <button class="api-submit-button" id="submit" onclick="getInputValue()">Submit</button>
+    </div>
+    <script src="chatGPT.js"></script>
+</body>
+</html>

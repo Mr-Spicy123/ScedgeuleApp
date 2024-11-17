@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Event</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1 class="titles">Add Event</h1>
+    <input type="text" id="subjectTF" class="api-text-field-subject" name="subjectTF" autocomplete="off" placeholder="Enter subject">
+        <button class="api-submit-button" id="submit" onclick="getInputValue()">Submit</button>
+    <input type="text" id="monthTF" class="api-text-field-month" name="monthTF" autocomplete="off" placeholder="Enter month">
+    <input type="text" id="dayTF" class="api-text-field-day" name="dayTF" autocomplete="off" placeholder="Enter day">
+    <input type="text" id="timeTF" class="api-text-field-time" name="timeTF" autocomplete="off" placeholder="Enter time">
+        
+
+    <script src="events.js"></script>
+    <script type="module" src="addEventJS.js"></script>
+</body>
+</html>
